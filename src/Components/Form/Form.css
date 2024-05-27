@@ -1,0 +1,141 @@
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.GetInTouch {
+    margin-bottom: 40px;
+}
+
+.GetInTouch h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-right: 90px;
+}
+
+.contact-header img {
+    height: 60px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.HRname {
+    margin-left: 20px;
+    text-align: left;
+}
+.HRname p{
+    font-size: 18px;
+    margin: 0;
+    color: #555;
+}
+.HRname strong{
+    font-size: 20px;
+}
+
+.contact-info {
+    max-width: 500px;
+    width: 100%;
+    padding: 0px;
+}
+
+.other-info h2 {
+    margin-bottom: 20px;
+}
+
+.address , .num-mail {
+    margin-bottom: 20px;
+}
+
+.address i, .num-mail i{
+    margin-right: 10px;
+    color: rgb(66, 141, 247);
+}
+
+.num-mail p {
+    margin: 5px 0;
+}
+.num-mail a {
+    text-decoration: none;
+}
+.num-mail a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(165, 208, 237);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+.form-container {
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.contact-form {
+    flex-direction: column;
+}
+
+.contactheading h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contactheading p {
+    font-size: 16px;
+    color: #383838;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactheading a {
+    color: blue;
+    text-decoration: none;
+}
+.contactheading a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group input:focus , .form-group textarea:focus {
+    border-color: #0026ff;
+    outline: none;
+}
+

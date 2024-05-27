@@ -1,0 +1,138 @@
+
+.footer-main {
+    background-color: #a6d0dd;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.footer-main img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.allservice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+.all-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.quick-links h3, .contact h3 {
+    font-weight: bold;
+}
+
+.footer-service, .contact h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fb3b04;
+}
+
+.footer-content ul, .getInTouch ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.footer-content li, .getInTouch li {
+    margin-bottom: 10px;
+}
+
+.footer-content a, .getInTouch a {
+    color: #232b60;
+    text-decoration: none;
+}
+.footer-content a:hover, .getInTouch a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.getInTouch .info {
+    text-align: center;
+    align-items: center;
+}
+
+.getInTouch p {
+    margin: 10px 0;
+}
+
+.btn {
+    color: black;
+    background-color: #fab14b;
+}
+.btn:hover {
+    background-color: #232b60;
+}
+
+.fa {
+    margin-right: 10px;
+    color: #232b60;
+}
+
+@media (min-width : 768px) {
+    .footer-main {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .getInTouch .info {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+
+
+
+.end-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #145c8c;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #232b60;
+}
+
+.end-footer .copyright {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.end-footer .share-icon ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.end-footer .share-icon ul li {
+    display: inline;
+}
+
+.end-footer .share-icon ul li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.end-footer .share-icon ul li button:hover {
+    color: #fab14b;
+}
